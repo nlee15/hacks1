@@ -66,7 +66,7 @@ int main(int argc, char **argv) {
   difference=longitudeA-longitudeB;
 
 
-distance = arccos (sin(latitudeA) sin(latitudeB) + cos(latitudeA) cos(latitudeB) cos(difference)) · R;
+distance=arccos((sin (latitude A)sin(latitudeB))+(cos(longitudeA)cos(longitudeB)cos(difference))*R);
 
 	printf("Location Distance\n");
   printf("========================\n");
